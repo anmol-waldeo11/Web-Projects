@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #parent {
+        height: 740px;
+        width: 100%;
+        border: 1px solid;
+        background-image: url(./image/books-5100842_640.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: cursive;
+        color: white;
+      }
+      #child {
+        height: 580px;
+        width: 1250px;
+        border: 1px solid;
+        margin-top: 20px;
+        margin-left: 150px;
+        font-family: cursive;
+        background-color: black;
+        opacity: 0.8;
+      }
+      #a1 {
+        margin-left: 20px;
+      }
+      .b2 {
+        position: absolute;
+        border-color: white;
+        height: 25px;
+        width: 230px;
+        margin-left: 5px;
+        background-color: rgb(70, 58, 58);
+      }
+      #a2 {
+        margin-left: 50px;
+      }
+      #a3 {
+        margin-left: 60px;
+      }
+      #a4 {
+        margin-left: 70px;
+      }
+      #a5 {
+        margin-left: 40px;
+      }
+      .a6 {
+        margin-left: 222px;
+      }
+
+      #a7 {
+        position: absolute;
+        left: 178px;
+        bottom: 275px;
+      }
+      #a8 {
+        position: absolute;
+        bottom: 275px;
+        left: 350px;
+      }
+
+      #ba {
+        padding: 60px 190px;
+        border: 1px solid;
+        background-color: rgb(70, 58, 58);
+        position: absolute;
+        left: 360px;
+        bottom: 160px;
+        width: 300px;
+        /* margin-top: 50px; */
+      }
+      .drop {
+        position: absolute;
+        left: 750px;
+      }
+      .drop1 {
+        position: absolute;
+        left: 920px;
+      }
+      .drop2 {
+        position: absolute;
+        left: 940px;
+      }
+      #p1 {
+        position: absolute;
+        left: 915px;
+      }
+      #p2 {
+        position: absolute;
+        left: 913px;
+      }
+      .p3{
+        height: 40px;
+        width: 180px;
+        background-color: orangered;
+        color: white;
+        position: absolute;
+        left: 360px;
+        top: 600px;
+      }
+      #p4{
+        margin-left: 200px;
+      }
+      #p5{
+        color: rgb(247, 246, 246);
+        position: absolute;
+        top: 700px;
+        left: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent">
+      <center><h1>FEEDBACK FORM</h1></center>
+      <div id="child">
+        <br />
+        <label id="a1" type="text">Customer Name</label>
+        <label id="a2" for="">:</label>
+        <input class="b2" type="text" placeholder="Customer Name" />
+        <label class="drop" id="" for="">Product You Like </label>
+        <label id="p2" for="">:</label>
+        <select class="drop1" name="" id="">
+          <option value="" selected>Product</option>
+          <option value="">Shampoo</option>
+          <option value="">Conditioner</option>
+        </select>
+        <br /><br /><br />
+        <label id="a1" type="text">Email Address</label>
+        <label id="a3" for="">:</label>
+        <input class="b2" "type="text" placeholder="Email Address">
+        <br /><br /><br />
+        <label id="a1" type="text">Organization</label>
+        <label id="a4" for="">:</label>
+        <input class="b2" "type="text" placeholder="Organization">
+        <br /><br /><br />
+        <label id="a1" type="text">Rating for company</label>
+        <label id="a5" for="">:</label>
+
+        <input type="radio" name="rating" />
+        <label for="">Very high</label>
+
+        <label class="drop" id="" type="text">Rating for Support</label>
+        <label id="p1" for="">:</label>
+
+        <input class="drop1" type="radio" name="rating" />
+        <label class="drop2" for="">Very Good</label>
+
+        <br />
+        <input class="a6" type="radio" name="rating" />
+        <label for="">High</label>
+        <input class="drop1" type="radio" name="rating" />
+        <label class="drop2" for="">Good</label>
+        <br />
+        <input class="a6" type="radio" name="rating" />
+        <label for="">Medium</label>
+        <input class="drop1" type="radio" name="rating" />
+        <label class="drop2" for="">Average</label>
+        <br />
+        <input class="a6" type="radio" name="rating" />
+        <label for="">Low</label>
+        <input class="drop1" type="radio" name="rating" />
+        <label class="drop2" for="">Fair</label>
+        <br />
+        <input class="a6" type="radio" name="rating" />
+        <label for=""> very Low</label>
+        <input class="drop1" type="radio" name="rating" />
+        <label class="drop2" for=""> Poor</label>
+        <br />
+        <label id="a7" for="text">Customer Enquiry</label>
+        <label id="a8" for="">:</label>
+        <input type="text" name="" id="ba" placeholder="Your Queries" />
+        <br><br><br>
+        <button class="p3">SUBMIT</button>
+        <button class="p3" id="p4">RESET</button>
+        <br><br><br>
+        <b><label for="text" id="p5">@ 2018 Feedback Form All Rights Reserved | Design By <a href="" style="color: orangered;">Wayouts</a></label></b>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            height: 700px;
+            width: 1500px;
+            border: 1px solid;
+            background-color: beige;
+        }
+        #child{
+            height: 600px;
+            width: 400px;
+            border: 1px solid;
+            background-color: aqua;
+            margin-top: 50px;
+            margin-left: 500px;
+            box-shadow: 5px 3px 2px rgb(17, 3, 3);
+        }
+        #a1{
+            height: 100px;
+            width: 100px; 
+            justify-content: start;
+            background-repeat: no-repeat;
+        }
+        #child h2{
+            margin-top: 50px; 
+            margin-left:140px;
+        }
+        #c1{
+            margin-top: 5px;
+            margin-left:25px ;
+        }
+        #c2{
+            height: 30px; 
+            width: 200px; 
+            margin-left: 90px;
+            border:none;
+            border-radius: 20px;
+            background-color: bisque; 
+            margin-top: 30px; 
+            color: red; 
+            box-shadow: 3px 3px blue;
+        }
+        .s1{
+            margin-top: 5px;
+        }
+
+        
+    </style>
+
+<body>
+    <div id="parent">
+    <div id="child">
+    <main>
+        <img id="a1" src="image/pizza-1081534_640.jpg" >
+        
+            <h2 >Pizza Form</h2>
+            <fieldset>
+            <legend> Personal Info</legend>
+            <form >
+                
+                <label for="name"> First name: </label>
+                <input type="text" id="name">
+                <br>
+                
+                <label  class="s1" for="id" >Last name: </label>
+                <input class="s1" "type="text" id="id">
+                <br>
+                <label class="s1" "for="tel"> Phone: </label>
+                <input id ="c1" "type="text" id="id">
+                
+                <br>
+            </form>
+        </fieldset>
+        <fieldset>
+            <legend>Pizza</legend>
+            <form > 
+                <label for="size">Size:</label>
+                <br>
+            <input type="radio" name="size" id="">
+            <label for="">Small</label>
+            <br>
+            <input type="radio" name="size" id="">
+            <label for="">Medium</label>
+            <br>
+            <input type="radio" name="size" id="">
+            <label for="">Large</label>
+            <br> <br>
+            <label for="top">Toppings (check all the apply):</label>
+            <br>
+            <input type="checkbox" name="top" id="">
+            <label for="">Extra cheese</label>
+            <input type="checkbox" name="top" id="">
+            <label for="">Pepperroni</label>
+            <input type="checkbox" name="top" id="">
+            <label for="">Sausage</label>
+            <input type="checkbox" name="top" id="">
+            <label for="">Mushrooms</label>
+            <input type="checkbox" name="top" id="">
+            <label for="">Black olives</label>
+            <input type="checkbox" name="top" id="">
+            <label for="">Green Peppers</label>
+            <input type="checkbox" name="top" id="">
+            <label for="">Tomatos</label>
+            <input type="checkbox" name="top" id="">
+            <label for="">Onions</label>
+            <input type="checkbox" name="top" id="">
+            <label for="">Anchovies</label>
+            </form>
+        </fieldset>
+    <button id="c2">Enter my information</button>
+         </main>
+</div>
+</div>
+</body>
+</html>
