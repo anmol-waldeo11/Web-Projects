@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0 (1)/./font-awesome-4.7.0/css/font-awesome.min.css">
+    <style>
+      #box{
+        height: 620px;
+        width: 350px;
+        border: 1px solid;
+        margin: 0 auto;
+        margin-top: 70px;
+        border-radius: 20px;
+        background-color: #252534;
+        box-shadow: 5px 10px 10px#666262;
+      }
+      #ut{
+        color: white;
+        margin: 0 auto;
+        text-align: center;
+      }
+      
+      #n{
+        margin-top:-15px;
+      }
+      #n1{
+        color: orange;
+      }
+      #n2 {
+        color: aqua;
+      }
+      #n3 {
+        color: #efef15;
+      }
+      #b1{
+        height: 50px;
+        width: 50px;
+        background-image: url(./parent.png);
+        background-position: center;
+        background-size: cover;
+      }
+      #b2{
+        height: 50px;
+        width: 50px;
+        background-image: url(./child.png);
+        background-position: center;
+        background-size: cover;
+      }
+      #b3{
+        height: 50px;
+        width: 50px;
+        background-image: url(./teacher.png);
+        background-position: center;
+        background-size: cover;
+      }
+      #b li{
+        border: 2px solid white;
+        position: relative;
+        display: inline-block;
+        margin: 0 auto;
+        margin-right: 45px;
+        border-radius: 50%;
+      }
+      #li{
+        display: inline-block;
+        position: relative;
+      }
+      #n li{
+        display: inline;
+        margin-right: 45px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: lighter;
+      }
+      h3{
+        color: #897ba1;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 2px;
+      }
+      #form{
+        height: 200px;
+        width: 250px;
+        margin-left: 50px;
+        margin-top: 40px;
+      }
+      input{
+        margin: auto;
+        align-items: center;
+        margin-left: 40px;
+      }
+      #su{
+        margin-left: 55px;
+        height: 40px;
+        width: 250px;
+        margin-top: -1px;
+        border: none;
+        border-radius: 30px;
+        font-size: large;
+        font-weight: bold;
+        font-size: medium;
+        color: white;
+        letter-spacing: 1px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-image: linear-gradient(to right,red, orange);
+      }
+      #in1{
+        height: 30px;
+        width: 250px;
+        border: 2px solid #666262;
+        margin: 0 auto;
+        margin-top: -1px;
+        border-radius: 25px;
+      }
+      #in2{
+        height: 20px;
+        width: 170px;
+        margin-top: -4px;
+        position: absolute;
+        background: transparent;
+        border: none;
+        outline: none; 
+        color: white;
+      }
+      #end{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 15px;
+        font-weight: lighter;
+        font-style: italic;
+        margin-left: 60px;
+      }
+      #end1{
+        color: white;
+        font-weight: lighter;
+      }
+      #end2{
+        color: orange;
+      }
+      #icon{
+          width: 1px;
+          height: 1px;
+          margin-left: 15px;
+          margin-top: 8px;
+          color: #666262;
+      }
+      #lo{
+          width: 1px;
+          height: 1px;
+          margin-left: 15px;
+          margin-top: 10px;
+          color: #666262;
+      }
+      #in4{
+        height: 20px;
+        width: 170px;
+        position: absolute;
+        margin-top: -23px;
+        background: transparent;
+        border: none;
+        outline: none;
+        color: white;
+      }
+
+    </style>
+  </head>
+  <body>
+      <div id="box">
+            <div id="ut">
+                <h1>Sign up</h1>
+                <h3>WHO YOU ARE?</h3>
+            </div>
+            <ul id="b">
+                <li id="b1"></li>
+                <li id="b2"></li>
+                <li id="b3"></li>
+            </ul>
+            <ul id="n">
+                <li id="n1">PARENT</li>
+                <li id="n2">CHILD</li>
+                <li id="n3">TEACHER</li>
+            </ul>
+            <form action="">
+                <div id="form">
+                    <div id="in1">
+                        <div id="icon">
+                            <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                        </div>
+                        <div><input type="text" id="in2" placeholder="Username"></div>
+                    </div>
+                    <br>
+                    <div id="in1">
+                        <div id="icon">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        </div>
+                        <div><input type="email" id="in2" placeholder="Email"></div>
+                    </div>
+                    <br>
+                    <div id="in1"><i class="fa fa-lock" aria-hidden="true" id="lo" ></i>
+                    <div><input type="password" id="in4" placeholder="Password"></div>
+                    </div>
+                    <br>
+                    <div id="in1">
+                        <div id="icon"><i class="fa fa-lock" aria-hidden="true"></i></div>
+                        <div><input type="password" id="in2" placeholder="Confirm Password"></div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <input type="button" id="su" value="SIGNUP">
+                <br>
+                <br>
+                <div id="end">
+                    <h4 id="end1">Already have an account. <a href="" id="end2">Login here</a></h4>
+                </div>
+            </form>
+        </div>
+  </body>
+</html>

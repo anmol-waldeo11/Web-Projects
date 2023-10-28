@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #tr{
+            background-color: #20207c;
+            color: white;
+            font-size: large;
+        }
+        #red{
+            background-color: #f71350f3;
+        }
+        .pink{
+            background-color: #f599a8;
+
+        }
+        #tb{
+            height: 200px;
+            width: 400px;
+            margin: 0 auto;
+            margin-top: 200px;
+            text-align: center;
+            box-shadow: 10px 10px 10px;
+            background-color: black;
+            border: 1px solid;
+        }
+        #white{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+   <table id="tb" >
+    <tr id="tr">
+        <th colspan="2" >Subject</th>
+        <!-- <td></td> -->
+        <th>John Doe</th>
+        <th>Mirium Luther</th>
+    </tr>
+    <tr>
+        <td rowspan="2"  id="white" >Biology</td>
+        <td id="red" >Practical</td>
+        <td class="pink" >A</td>
+        <td id="red" >A</td>
+    </tr>
+    <tr>
+        <!-- <td></td> -->
+        <td  class="pink" >Theory</td>
+        <td id="red" >A+</td>
+        <td class="pink" >A</td>
+    </tr>
+    <tr>
+        <td rowspan="2"  id="red" >Chemistry</td>
+        <td id="white" >Practical</td>
+        <td class="pink" >B</td>
+        <td id="white" >C</td>
+    </tr>
+    <tr>
+        <!-- <td></td> -->
+        <td class="pink" >Theory</td>
+        <td id="white" >A</td>
+        <td class="pink" >C+</td>
+    </tr>
+    <tr>
+        <td rowspan="2"  id="white" >Physics</td>
+        <td id="red" >Practical</td>
+        <td class="pink" >A</td>
+        <td id="red" >A</td>
+    </tr>
+    <tr>
+        <!-- <td></td> -->
+        <td class="pink" >Theory</td>
+        <td id="red" >A-</td>
+        <td class="pink" >A-</td>
+    </tr>
+   </table>
+</body>
+</html>
